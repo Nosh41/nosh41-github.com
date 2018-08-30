@@ -1,0 +1,103 @@
+/* General Elements*/
+body{
+	background-image: url("../images/Crystal.jpg");
+	border: 2px solid white;
+    padding: 25px;
+    background-size: auto;
+}
+body{
+    background-position: center;
+}
+div{
+	
+	margin: 100px;
+	width: 35%
+	min-content
+	
+}
+/*div{
+	border: solid 2px antiquewhite;
+	padding: 10px;
+}
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
+}*/
+h1{
+	font-size: 40pt;
+	color: blanchedalmond;
+	background-position-x: right;
+}
+
+h3{
+    list-style: disc inside;
+	text-indent: 50px;
+	font-size: 30px;
+	color: aliceblue; 
+
+}
+ol{
+	list-style: decimal inside; 
+}
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+	color: aliceblue;
+}
+/* Specfic Elements*/
+div.header, div.gems{
+	position: relative;
+	;
+	
+}
+div.header, div.instructions{
+	width: 50%;
+	position: relative
+}
+/* Classes */
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 15%;
+	height: 60px;
+}
+.userTotal{
+
+	background-position-y: center;
+}
+.gems{
+	clear: both;
+}
+.gemImage{
+	height: 60px;
+	margin: 10px;
+}
+/* IDs */
+#Red{
+	color: darkred;
+	text-align: right;
+}
+#Blue{
+	color: blue;
+	text-align: right;
+}
+#Yellow{
+	color: gold;
+	text-align: right;
+}
+#Green{
+	color: #00aa59;
+	text-align: right;
+}
+li{
+	font-size: 20px;
+	color: crimson;
+	float: left;
+	bottom: 80px;
+}
+h2{
+	font-size: 20pt;
+	color: orangered;
+	background-position-x: center;
+	text-align: left;
+	font-weight: bold;
+}
